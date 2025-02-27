@@ -801,7 +801,7 @@ struct StatusInformation {
 /// # Arguments
 ///
 /// * `root ident`: The identity (name) of the main CRD struct (the one we generate in this macro)
-/// * `status`: The optional name of the `status` struct to use
+/// * `status`: The optional path of the `status` struct to use
 /// * `visibility`: Desired visibility of the generated field
 /// * `kube_core`: The path stream for the analagous kube::core import location from users POV
 ///
